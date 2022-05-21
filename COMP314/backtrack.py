@@ -9,7 +9,7 @@ class knight_tour:
         # All the possible moves for the knight
         self.moves_x = [2, 1, -1, -2, -2, -1, 1, 2]
         self.moves_y = [1, 2, 2, 1, -1, -2, -2, -1]
-        self.start = start  # Initialize starting position
+        self.start = start  # Initialize the starting position
 
         self.solution = [[-1 for _ in range(self.size)]
                          for _ in range(self.size)]
