@@ -40,7 +40,7 @@ def plotpolar():
     glEnable(GL_BLEND)
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA)
 
-    # Plot polar equation for a Trifolium
+    # Plot polar equation for Trifolium
     for degree in range(0, 180):
         radian = degree * math.pi / 180
 
